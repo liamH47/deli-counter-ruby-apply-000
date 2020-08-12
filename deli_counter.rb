@@ -22,6 +22,7 @@ def line(katz_deli)
   place_on_line = []
   if katz_deli.empty?
     puts "The line is currently empty."
+    number = 1
   else
     katz_deli.each do |customer|
       place_on_line.push "#{number}. #{customer}"
